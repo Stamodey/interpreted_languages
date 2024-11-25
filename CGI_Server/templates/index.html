@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить стиль</title>
+</head>
+<body>
+    <h1>Добавить архитектурный стиль</h1>
+    <form action="/cgi-bin/add_data.py" method="post">
+        <label for="name">Название стиля:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="description">Описание:</label>
+        <textarea id="description" name="description" required></textarea><br><br>
+        <button type="submit">Добавить стиль</button>
+    </form>
+</body>
+</html>
