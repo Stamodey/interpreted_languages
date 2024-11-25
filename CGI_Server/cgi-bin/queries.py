@@ -1,6 +1,6 @@
 import sqlite3
 
-DB_PATH = "D:/универ/lab10-11/architecture.db"
+DB_PATH = "architecture.db"
 
 def get_all_styles():
     """Вывести все архитектурные стили."""
