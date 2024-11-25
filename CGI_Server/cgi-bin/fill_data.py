@@ -1,7 +1,7 @@
 import sqlite3
 
 def fill_data():
-    conn = sqlite3.connect('D:/универ/lab10-11/architecture.db')
+    conn = sqlite3.connect('architecture.db')
     cursor = conn.cursor()
 
     # Заполнение таблицы стилей
